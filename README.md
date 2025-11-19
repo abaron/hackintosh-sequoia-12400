@@ -18,10 +18,13 @@ This repository contains an OpenCore EFI for a custom Hackintosh build named "Se
 | SATA SSD | Team Group Vulcan 512 GB |
 | HDD 2.5" | Seagate 1 TB |
 | HDD 3.5" | WD Purple 4 TB |
+| Wireless Card | Intel® Wi-Fi 6E AX210 + BT5.2 |
 | Keyboard | Langtu GK64 |
 | Mouse | Logitech M330 |
 | Monitor 1 | Xiaomi A27Qi 27" (2560×1440) |
 | Monitor 2 | BenQ G615HDPL 15.5" (1366×768) |
+| Webcam + Mic | Generic China-made (unknown brand) |
+| Case | Gamemax Spark |
 
 ## Repository layout (important paths)
 
@@ -43,7 +46,9 @@ These items are working reliably in this configuration:
 - Dual-monitor setup (external monitors recognized, extended/duplicate displays)
 - GPU acceleration for RX 6800 XT (no kext changes required after upgrading from RX 6700 XT)
 - Audio (AppleALC or alternative pin config in-place)
+ - All audio ports are working, bluetooth and usb audio as well
 - USB ports (including XHCI fixes and USB mapping via SSDTs / `USBPorts.kext`)
+ - All USB ports are working
 - Sleep / Wake (basic sleep, wake tested)
 - Screensaver animations and UI graphics
 - Keyboard and mouse (Langtu GK64 and Logitech M330)
